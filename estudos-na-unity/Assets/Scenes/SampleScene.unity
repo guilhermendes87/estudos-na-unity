@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
-  - component: {fileID: 705507997}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -218,24 +217,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!114 &705507997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 705507993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9910c62fcb5b3c42ab8813e4554b70c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ValorInt: 10
-  ValorDec: 10.5
-  TextoDeclarado: Seu texto escrito aqui
-  gameobject: {fileID: 709666701}
-  transformUnity: {fileID: 0}
-  rig: {fileID: 0}
 --- !u!1 &709666701
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,7 +228,7 @@ GameObject:
   - component: {fileID: 709666705}
   - component: {fileID: 709666704}
   - component: {fileID: 709666703}
-  - component: {fileID: 709666702}
+  - component: {fileID: 709666706}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -255,19 +236,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &709666702
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 709666701}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &709666703
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -333,6 +301,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &709666706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709666701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e94e6f4c1a31b43b554d7219b4ef12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  n1: 4
+  n2: 4
+  AtivarCheckBox: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
