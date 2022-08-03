@@ -230,12 +230,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 146684174}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65f934b1eb6f9bc49b8cd014dc7cb106, type: 3}
+  m_Script: {fileID: 11500000, guid: 645038ff477a1bb489640d8db57047c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Vida: 80
-  ValorRegen: 20
-  ValorDano: 30
+  enemy01:
+    name: Matrix
+    force: 10
+    speed: 50
+    mana: 40
+    life: 90
+  enemy02:
+    name: Mago
+    force: 5
+    speed: 20
+    mana: 100
+    life: 40
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
