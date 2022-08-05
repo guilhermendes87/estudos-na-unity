@@ -33,7 +33,8 @@ public class Script01 : MonoBehaviour
     void Start()
     {
         Script11Estaticos.estaticos.AumentarVida();
-        Debug.Log("Sua vida atual é: " + Script11Estaticos.estaticos.vida);
+        //Debug.Log("Sua vida atual é: " + Script11Estaticos.estaticos.vida);
+        Debug.Log("Seu nome é: "+ Script11Estaticos.estaticos.Name);
     }
 
     // Atualizado na quantidade de frames que está configurado

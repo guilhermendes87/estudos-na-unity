@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Script11Estaticos : MonoBehaviour
 {
+    public string Name = "Loading";
     public int vida = 3;
     public static Script11Estaticos estaticos;
 
