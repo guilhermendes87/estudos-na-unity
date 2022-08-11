@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Script06WhileDoWhile : MonoBehaviour
 {
-    int QuantItens = 5;
+    //int QuantItens = 5;
     int Money = 100;
 
     // Start is called before the first frame update
