@@ -32,7 +32,9 @@ public class Script01 : MonoBehaviour
     // Iniciado toda vez que o jogo/programa é iniciado.
     void Start()
     {
-        
+        Script11Estaticos.estaticos.AumentarVida();
+        //Debug.Log("Sua vida atual é: " + Script11Estaticos.estaticos.vida);
+        Debug.Log("Seu nome é: "+ Script11Estaticos.estaticos.Name);
     }
 
     // Atualizado na quantidade de frames que está configurado
