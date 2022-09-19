@@ -2159,7 +2159,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1223591968}
-  - component: {fileID: 1223591970}
   - component: {fileID: 1223591969}
   m_Layer: 0
   m_Name: GameObject
@@ -2192,21 +2191,59 @@ MonoBehaviour:
   m_GameObject: {fileID: 1223591966}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d199bb3bfd67ac946b6a63dd7692486c, type: 3}
+  m_Script: {fileID: 11500000, guid: c61b7aaeb3c749f4d9a7c30e28336a80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1223591970
+  Score: 0
+  Point: 0
+  Texto: 
+  LifeBar: 0
+  TextArea: 
+--- !u!1 &1408743107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1408743109}
+  - component: {fileID: 1408743108}
+  m_Layer: 0
+  m_Name: Tavern
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1408743108
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1223591966}
+  m_GameObject: {fileID: 1408743107}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90c2842bba7b3f444aea5eb5819b902e, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a3dde977485ee147a1d3b05627ff127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Chars: []
+--- !u!4 &1408743109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408743107}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.610848, y: -10.850372, z: -26.797558}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1519530529
 GameObject:
   m_ObjectHideFlags: 0
@@ -2216,7 +2253,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1519530531}
-  - component: {fileID: 1519530532}
   m_Layer: 0
   m_Name: verifica
   m_TagString: Untagged
@@ -2239,19 +2275,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1519530532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1519530529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d8899d6d56d7f945825e8564cd9ebca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myHero: 3
 --- !u!1 &1632623258
 GameObject:
   m_ObjectHideFlags: 0
